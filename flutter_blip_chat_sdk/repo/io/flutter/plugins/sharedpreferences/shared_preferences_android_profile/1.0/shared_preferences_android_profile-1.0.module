@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.sharedpreferences",
+    "module": "shared_preferences_android_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared_preferences_android_profile-1.0.aar",
+          "url": "shared_preferences_android_profile-1.0.aar",
+          "size": 9987,
+          "sha512": "92f9c6e0783e7830670f060b5f141c6daad100ccb8a8ca1887f8f4dd14a048a1eaa7f63180bcccbb13d81ef05aea7a42f88e30801815f3f77af99d10b71206e0",
+          "sha256": "79d59763e9326b4f6e0afe281a05a151e42fba0832c1bb1a1d0cd0235dfe9d9a",
+          "sha1": "cb8437857c3cb32b39bdfb8dc388ef0b14465eac",
+          "md5": "a326b6f124db0bf94953eed045b025c9"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared_preferences_android_profile-1.0.aar",
+          "url": "shared_preferences_android_profile-1.0.aar",
+          "size": 9987,
+          "sha512": "92f9c6e0783e7830670f060b5f141c6daad100ccb8a8ca1887f8f4dd14a048a1eaa7f63180bcccbb13d81ef05aea7a42f88e30801815f3f77af99d10b71206e0",
+          "sha256": "79d59763e9326b4f6e0afe281a05a151e42fba0832c1bb1a1d0cd0235dfe9d9a",
+          "sha1": "cb8437857c3cb32b39bdfb8dc388ef0b14465eac",
+          "md5": "a326b6f124db0bf94953eed045b025c9"
+        }
+      ]
+    }
+  ]
+}

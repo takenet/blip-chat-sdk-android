@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "creativemaybeno.wakelock",
+    "module": "wakelock_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wakelock_profile-1.0.aar",
+          "url": "wakelock_profile-1.0.aar",
+          "size": 11336,
+          "sha512": "0c36b146d13a62c2fa347605e5b2fb7220cf3b9f08d5172c1493bb77d7e64b7628d9137308a7459c63fc5e43b4c2f0ad30b85da25fd74e4dd9ac38ae69f20ac5",
+          "sha256": "7c13d506af6c6d7dc5689a25c501eaf1ed6a01dded8e8f15ce15397955c5dd8c",
+          "sha1": "c843528c3af8ae30b8d7f24cd2d0c20f4431fb26",
+          "md5": "38804e9fb47988d3586a544b824a5f2e"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wakelock_profile-1.0.aar",
+          "url": "wakelock_profile-1.0.aar",
+          "size": 11336,
+          "sha512": "0c36b146d13a62c2fa347605e5b2fb7220cf3b9f08d5172c1493bb77d7e64b7628d9137308a7459c63fc5e43b4c2f0ad30b85da25fd74e4dd9ac38ae69f20ac5",
+          "sha256": "7c13d506af6c6d7dc5689a25c501eaf1ed6a01dded8e8f15ce15397955c5dd8c",
+          "sha1": "c843528c3af8ae30b8d7f24cd2d0c20f4431fb26",
+          "md5": "38804e9fb47988d3586a544b824a5f2e"
+        }
+      ]
+    }
+  ]
+}
