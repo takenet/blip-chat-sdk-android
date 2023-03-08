@@ -10,7 +10,7 @@ Crie um projeto utilizando como SDK mínimo API 23 do Android. Conforme Imagem 1
 
 # Passo 2
 
-Faça Download do arquivo zipado do projeto conforme Imagem 2 a seguir. Utilize o link abaixo para download: https://github.com/fourtime/blip-chat-android
+Faça Download do arquivo zipado do projeto conforme Imagem 2 a seguir. Utilize o link abaixo para download: https://github.com/takenet/blip-chat-sdk-android
 
 ![alt text](https://github.com/fourtime/blip-chat-android/blob/main/imgs/2_-_BaixandoArquivos.png)
 2 - Baixando Arquivos
