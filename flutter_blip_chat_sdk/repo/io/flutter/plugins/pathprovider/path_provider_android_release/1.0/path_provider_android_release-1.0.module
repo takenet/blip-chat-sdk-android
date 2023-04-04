@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.4"
+      "version": "7.5"
     }
   },
   "variants": [
@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         }
       ],
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         },
         {

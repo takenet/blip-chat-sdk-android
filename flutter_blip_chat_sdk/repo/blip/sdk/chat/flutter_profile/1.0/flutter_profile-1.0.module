@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.4"
+      "version": "7.5"
     }
   },
   "variants": [
@@ -27,110 +27,117 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_profile",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_profile",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_profile",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         },
         {
           "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
-          "module": "flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.tekartik.sqflite",
-          "module": "sqflite",
+          "module": "sqflite_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.mr.flutter.plugin.filepicker",
-          "module": "file_picker",
+          "module": "file_picker_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "io.flutter.plugins.urllauncher",
-          "module": "url_launcher_android",
+          "module": "url_launcher_android_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "io.flutter.plugins.pathprovider",
-          "module": "path_provider_android",
+          "module": "path_provider_android_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "creativemaybeno.wakelock",
-          "module": "wakelock",
+          "module": "wakelock_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.ryanheise.just_audio",
-          "module": "just_audio",
+          "module": "just_audio_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "io.flutter.plugins.sharedpreferences",
-          "module": "shared_preferences_android",
+          "module": "shared_preferences_android_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.crazecoder.openfile",
-          "module": "open_filex",
+          "module": "open_filex_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.jrai.flutter_keyboard_visibility",
-          "module": "flutter_keyboard_visibility",
+          "module": "flutter_keyboard_visibility_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "android_generated",
+          "module": "ffmpeg_kit_flutter_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.ryanheise.audio_session",
-          "module": "audio_session",
+          "module": "audio_session_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "io.flutter.plugins.videoplayer",
-          "module": "video_player_android",
+          "module": "video_player_android_profile",
           "version": {
             "requires": "1.0"
           }
@@ -140,11 +147,11 @@
         {
           "name": "flutter_profile-1.0.aar",
           "url": "flutter_profile-1.0.aar",
-          "size": 398718,
-          "sha512": "869c0454f63762121ddd9012db5fb2900370a71f44eb537cb856ad2963bc775e8e8a39697e956db83e135a1d792c5f505894bd2eb8237e1fda1de96d1aa09607",
-          "sha256": "ef5b4fd304b7e94a3192c409df57dabb43fe0e0d2706abbbe148e142bdc5df90",
-          "sha1": "618240f74285235139c48c43c714b576a3992271",
-          "md5": "6821a033fb425d61a786f7bea8fe7631"
+          "size": 14931119,
+          "sha512": "3ef59d0b49c72698e9514fb8c1e573d5231b2b02ee184294463522c0cbd4f420e185d1322cbd0762f2bd70c11de1cfa06190eaed8aeb8472c94e20aecf524ae4",
+          "sha256": "6a47b1a0f4e2bb9cce153433d967eec115dd8ebffff858cd3fa8980984b55172",
+          "sha1": "9356829df0fafd916d6930e1f7b397c0ccdbf722",
+          "md5": "75b103e3a007058f086766d1668425d3"
         }
       ]
     },
@@ -161,110 +168,117 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_profile",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_profile",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_profile",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         },
         {
           "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
-          "module": "flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.tekartik.sqflite",
-          "module": "sqflite",
+          "module": "sqflite_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.mr.flutter.plugin.filepicker",
-          "module": "file_picker",
+          "module": "file_picker_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "io.flutter.plugins.urllauncher",
-          "module": "url_launcher_android",
+          "module": "url_launcher_android_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "io.flutter.plugins.pathprovider",
-          "module": "path_provider_android",
+          "module": "path_provider_android_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "creativemaybeno.wakelock",
-          "module": "wakelock",
+          "module": "wakelock_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.ryanheise.just_audio",
-          "module": "just_audio",
+          "module": "just_audio_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "io.flutter.plugins.sharedpreferences",
-          "module": "shared_preferences_android",
+          "module": "shared_preferences_android_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.crazecoder.openfile",
-          "module": "open_filex",
+          "module": "open_filex_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.jrai.flutter_keyboard_visibility",
-          "module": "flutter_keyboard_visibility",
+          "module": "flutter_keyboard_visibility_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "android_generated",
+          "module": "ffmpeg_kit_flutter_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "com.ryanheise.audio_session",
-          "module": "audio_session",
+          "module": "audio_session_profile",
           "version": {
             "requires": "1.0"
           }
         },
         {
           "group": "io.flutter.plugins.videoplayer",
-          "module": "video_player_android",
+          "module": "video_player_android_profile",
           "version": {
             "requires": "1.0"
           }
@@ -274,11 +288,11 @@
         {
           "name": "flutter_profile-1.0.aar",
           "url": "flutter_profile-1.0.aar",
-          "size": 398718,
-          "sha512": "869c0454f63762121ddd9012db5fb2900370a71f44eb537cb856ad2963bc775e8e8a39697e956db83e135a1d792c5f505894bd2eb8237e1fda1de96d1aa09607",
-          "sha256": "ef5b4fd304b7e94a3192c409df57dabb43fe0e0d2706abbbe148e142bdc5df90",
-          "sha1": "618240f74285235139c48c43c714b576a3992271",
-          "md5": "6821a033fb425d61a786f7bea8fe7631"
+          "size": 14931119,
+          "sha512": "3ef59d0b49c72698e9514fb8c1e573d5231b2b02ee184294463522c0cbd4f420e185d1322cbd0762f2bd70c11de1cfa06190eaed8aeb8472c94e20aecf524ae4",
+          "sha256": "6a47b1a0f4e2bb9cce153433d967eec115dd8ebffff858cd3fa8980984b55172",
+          "sha1": "9356829df0fafd916d6930e1f7b397c0ccdbf722",
+          "md5": "75b103e3a007058f086766d1668425d3"
         }
       ]
     }

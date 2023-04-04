@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.4"
+      "version": "7.5"
     }
   },
   "variants": [
@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "file_picker_profile-1.0.aar",
           "url": "file_picker_profile-1.0.aar",
-          "size": 27147,
-          "sha512": "fff7f80f6c3a8046f7a1b0ff1c01782a7612bc0b9fc729b211bc4269e49112e48f51caef79241c77270c426dcb9fd6f8a8db1fe39adb7b149e82267d38324804",
-          "sha256": "f4511ddc80d89cbb025efe279dd6f0c4a2c2383f195ad564c1d24b30de4d9d77",
-          "sha1": "177b2dc2c64d9ff9906b135e3712bee956d24686",
-          "md5": "69ce21ea39cc1af03dec4c83992a0759"
+          "size": 27407,
+          "sha512": "2d902b02c671e41cc7b431f33e319d1a9b84e2f2ced2c5582fd8857f0692324d377cac5f80342a681c8f5da6d315dd9f0e24faca116b5a110b3c5cc52e95f262",
+          "sha256": "18b5ce87ecb089789f46c3560ccdbd8b44c4d9d0a1dbedcad5aaa849f0d73589",
+          "sha1": "265cd2a878c12d8c3c7ef8d3ca84830fbf8a65b0",
+          "md5": "d487a7038bc3863342f0ad427b612dcd"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
           }
         },
         {
@@ -82,7 +82,7 @@
         },
         {
           "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
-          "module": "flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_profile",
           "version": {
             "requires": "1.0"
           }
@@ -92,11 +92,11 @@
         {
           "name": "file_picker_profile-1.0.aar",
           "url": "file_picker_profile-1.0.aar",
-          "size": 27147,
-          "sha512": "fff7f80f6c3a8046f7a1b0ff1c01782a7612bc0b9fc729b211bc4269e49112e48f51caef79241c77270c426dcb9fd6f8a8db1fe39adb7b149e82267d38324804",
-          "sha256": "f4511ddc80d89cbb025efe279dd6f0c4a2c2383f195ad564c1d24b30de4d9d77",
-          "sha1": "177b2dc2c64d9ff9906b135e3712bee956d24686",
-          "md5": "69ce21ea39cc1af03dec4c83992a0759"
+          "size": 27407,
+          "sha512": "2d902b02c671e41cc7b431f33e319d1a9b84e2f2ced2c5582fd8857f0692324d377cac5f80342a681c8f5da6d315dd9f0e24faca116b5a110b3c5cc52e95f262",
+          "sha256": "18b5ce87ecb089789f46c3560ccdbd8b44c4d9d0a1dbedcad5aaa849f0d73589",
+          "sha1": "265cd2a878c12d8c3c7ef8d3ca84830fbf8a65b0",
+          "md5": "d487a7038bc3863342f0ad427b612dcd"
         }
       ]
     }

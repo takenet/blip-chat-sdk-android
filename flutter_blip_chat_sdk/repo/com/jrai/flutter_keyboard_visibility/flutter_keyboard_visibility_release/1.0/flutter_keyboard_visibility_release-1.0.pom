@@ -11,19 +11,11 @@
   <artifactId>flutter_keyboard_visibility_release</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
-  <distributionManagement>
-    <relocation>
-      <groupId>com.jrai.flutter_keyboard_visibility</groupId>
-      <artifactId>flutter_keyboard_visibility</artifactId>
-      <version>1.0</version>
-      <message>Use classifiers rather than _variant for new publish plugin</message>
-    </relocation>
-  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_release</artifactId>
-      <version>1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99</version>
+      <version>1.0.0-9aa7816315095c86410527932918c718cb35e7d6</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>

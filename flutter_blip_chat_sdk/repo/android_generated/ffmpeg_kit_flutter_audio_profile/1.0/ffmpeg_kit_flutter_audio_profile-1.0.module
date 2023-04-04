@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "android_generated",
+    "module": "ffmpeg_kit_flutter_audio_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ada363ee93b17cfe31587b5102679885cb40837e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ffmpeg_kit_flutter_audio_profile-1.0.aar",
+          "url": "ffmpeg_kit_flutter_audio_profile-1.0.aar",
+          "size": 28898,
+          "sha512": "f9ef5bec66520f14d270c7186ae47ee65f191079fee9c7bf9eec383a434d4e2deb61c00110a4424ff0da68195211ea3be4fa3f4a14b49d8d51ea4d9fd6d783a7",
+          "sha256": "e6b5c71a1dde2e4ac52d353f83623f39b6daa1fc4490c73d152fe98f8c27f63b",
+          "sha1": "7d2d0096ec855b16c33b4b8df9ac33db960a3c50",
+          "md5": "f158432e8184a1c7cd70af07b83841a1"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ada363ee93b17cfe31587b5102679885cb40837e"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.arthenica",
+          "module": "ffmpeg-kit-audio",
+          "version": {
+            "requires": "5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ffmpeg_kit_flutter_audio_profile-1.0.aar",
+          "url": "ffmpeg_kit_flutter_audio_profile-1.0.aar",
+          "size": 28898,
+          "sha512": "f9ef5bec66520f14d270c7186ae47ee65f191079fee9c7bf9eec383a434d4e2deb61c00110a4424ff0da68195211ea3be4fa3f4a14b49d8d51ea4d9fd6d783a7",
+          "sha256": "e6b5c71a1dde2e4ac52d353f83623f39b6daa1fc4490c73d152fe98f8c27f63b",
+          "sha1": "7d2d0096ec855b16c33b4b8df9ac33db960a3c50",
+          "md5": "f158432e8184a1c7cd70af07b83841a1"
+        }
+      ]
+    }
+  ]
+}

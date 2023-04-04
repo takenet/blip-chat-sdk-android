@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "android_generated",
+    "module": "ffmpeg_kit_flutter_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ffmpeg_kit_flutter_profile-1.0.aar",
+          "url": "ffmpeg_kit_flutter_profile-1.0.aar",
+          "size": 28846,
+          "sha512": "746f671ca7274db4980dd5201fa7c89193b2c125aa0f32c518fdfb5c51bf854dc35e2268bc9580aaef31b3214beb99640c9a7c4d64ef138750a582dfc15f9ed6",
+          "sha256": "c5c841f9fcab0247a22e47aae2dcb83ed570cb699a1ff4f12eb6571ac1e80818",
+          "sha1": "c6942e732b106b4c06e87f124529f05fde50dba9",
+          "md5": "e306c21900bdabaf32c56a08f1de4ab3"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-9aa7816315095c86410527932918c718cb35e7d6"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.arthenica",
+          "module": "ffmpeg-kit-https",
+          "version": {
+            "requires": "5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ffmpeg_kit_flutter_profile-1.0.aar",
+          "url": "ffmpeg_kit_flutter_profile-1.0.aar",
+          "size": 28846,
+          "sha512": "746f671ca7274db4980dd5201fa7c89193b2c125aa0f32c518fdfb5c51bf854dc35e2268bc9580aaef31b3214beb99640c9a7c4d64ef138750a582dfc15f9ed6",
+          "sha256": "c5c841f9fcab0247a22e47aae2dcb83ed570cb699a1ff4f12eb6571ac1e80818",
+          "sha1": "c6942e732b106b4c06e87f124529f05fde50dba9",
+          "md5": "e306c21900bdabaf32c56a08f1de4ab3"
+        }
+      ]
+    }
+  ]
+}

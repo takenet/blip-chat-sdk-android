@@ -11,19 +11,11 @@
   <artifactId>file_picker_debug</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
-  <distributionManagement>
-    <relocation>
-      <groupId>com.mr.flutter.plugin.filepicker</groupId>
-      <artifactId>file_picker</artifactId>
-      <version>1.0</version>
-      <message>Use classifiers rather than _variant for new publish plugin</message>
-    </relocation>
-  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_debug</artifactId>
-      <version>1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99</version>
+      <version>1.0.0-9aa7816315095c86410527932918c718cb35e7d6</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -46,7 +38,7 @@
     </dependency>
     <dependency>
       <groupId>io.flutter.plugins.flutter_plugin_android_lifecycle</groupId>
-      <artifactId>flutter_plugin_android_lifecycle</artifactId>
+      <artifactId>flutter_plugin_android_lifecycle_debug</artifactId>
       <version>1.0</version>
       <scope>runtime</scope>
     </dependency>
